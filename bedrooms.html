@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/bedroom.css">
+    <link rel="stylesheet" href="styles/convenience.css">
+    <link rel="stylesheet" href="styles/breakfast.css">
+    <link rel="stylesheet" href="styles/external-area.css">
+    <link rel="stylesheet" href="styles/events.css">
+    <link rel="stylesheet" href="styles/location.css">
+    <link rel="stylesheet" href="styles/contact.css">
+
+
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGBNcQaOtdtFxGER1mpbKsn5V_4EUVJDY&callback=initMap" async defer></script>
+    <title>Nautillus Hotel</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <img id="nav_logo" src="src/logo nautillus.svg" alt="logo">
+            
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="index.html#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#bedroom">Quartos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#convenience">Comodidades</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#breakfast">Café da Manhã</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#external-area">Área Externa</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#events">Eventos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#location">Localização</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact">Contato</a>
+                </li>
+            </ul>
+
+            <a class="btn-default">
+                <i class="fa-solid fa-calendar-days"></i>
+                Reservar
+            </a>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!--Mobile-->
+            <div id="mobile_menu">
+                <ul id="mobile_nav_list">
+                    <li class="nav-item">
+                        <a href="index.html#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#bedroom">Quartos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#convenience">Comodidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#breakfast">Café da Manhã</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#external-area">Área Externa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#events">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#location">Localização</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#contact">Contato</a>
+                    </li>
+                </ul>
+
+                <a class="btn-default">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    Reservar
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="bedroom-page">
+        <section id="events">
+            <div class="gallery-images">
+                <img src="src/images/bedrooms/quarto1.jpg" alt="Imagem 1">
+                <img src="src/images/bedrooms/quarto2.jpg" alt="Imagem 2">
+              </div>
+              <div class="gallery-text">
+                <h1 id="section-title-a"><i class="fa-solid fa-0"></i><i class="fa-solid fa-1"></i>Quarto Standard</h1>
+                <li>
+                    <p>Cama dupla</p>
+                    <p>Área de 25m²</p>
+                    <p>Vista para a piscina</p>
+                </li>
+              </div>
+        </section>
+    </main>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
