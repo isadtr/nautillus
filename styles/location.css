@@ -1,0 +1,43 @@
+#location{
+    display: flex;
+    width: 100%;
+    height: 100vh; /* Ajuste a altura conforme necessário */
+    box-sizing: border-box;
+    background-color: var(--cor-header); /* Cor de fundo do retângulo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+    padding: 9% 10%;
+}
+
+.background-rectangle-l {
+    width: 100%;
+    height: 130%; /* Ajuste conforme necessário */
+    background-color: #f0f0f0;/* Cor de fundo do retângulo */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.location-container {
+    padding: 3% 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Espaçamento entre a galeria e o texto */
+}
+
+.container-text {
+    flex: 1;
+    padding: 20% 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#paragraph-l{
+    display: flex;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: white;
+}

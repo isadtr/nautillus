@@ -1,0 +1,22 @@
+
+    #about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        text-align: center; /* Centraliza o texto */
+    }
+    
+    #section-title {
+        margin-bottom: 20px;
+    }
+    
+    #about p {
+        max-width: 800px; /* Define a largura máxima para o parágrafo */
+        margin: 0 auto; /* Centraliza o parágrafo */
+        margin-bottom: 200px;
+        font-size: 1rem;
+        line-height: 1.6; /* Ajusta o espaçamento entre linhas */
+    }

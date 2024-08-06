@@ -1,0 +1,54 @@
+#bedroom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 40px;
+}
+
+.container-bedroom {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px; /* Limita a largura máxima do contêiner */
+    /* Espaçamento entre a galeria e o texto */
+    background-color: #f0f0f0; /* Cor de fundo do contêiner */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.image-bedroom {
+    position: relative;
+    width: 60%; 
+    overflow: hidden; 
+}
+.image-bedroom img{
+    width: 100%; /* Cada imagem ocupa 100% do contêiner de slide */
+    height: 100%;
+    object-fit: cover; /* Ajusta a imagem para preencher o contêiner */
+    border-radius: 10px;
+}
+
+#text-bedroom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center; /* Centraliza o texto */
+    padding: 40px;
+}
+
+#explore-rooms {
+    padding: 10px 20px;
+    margin-top: 40px; /* Espaçamento abaixo do botão */
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color:var(--cor-header); /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave para a cor de fundo */
+}
+
+#explore-rooms:hover {
+    background-color: var(--cor-botao); /* Cor de fundo ao passar o mouse */
+}

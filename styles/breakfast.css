@@ -1,0 +1,77 @@
+#breakfast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 40px;
+     /* Cor de fundo da seção */
+}
+
+.container-breakfast {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px; /* Limita a largura máxima do contêiner */
+    gap: 20px; /* Espaçamento entre a galeria e o texto */
+    background-color: #f0f0f0; /* Cor de fundo do contêiner */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+    overflow: hidden; /* Evita estouro de conteúdo */
+}
+
+.gallery {
+    position: relative;
+    width: 50%; 
+    overflow: hidden; /* Oculta as imagens que estão fora da visualização */
+}
+
+.slide {
+    display: flex;
+    width: 100%; /* Três imagens, 100% cada */
+    animation: slide 26s infinite; /* 3 segundos por slide, 3 slides no total */
+}
+
+.gallery img {
+    width: 100%; /* Cada imagem ocupa 100% do contêiner de slide */
+    height: auto;
+    object-fit:contain; /* Ajusta a imagem para preencher o contêiner */
+    border-radius: 5px; /* Bordas arredondadas das imagens */
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 20px;
+    text-align: center; /* Centraliza o texto */
+    margin-left: 40px;
+}
+
+#section-title {
+    font-size: 3.5rem;
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+#paragraph-bk {
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Montserrat';
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    12.5% { transform: translateX(-100%); }
+    25% { transform: translateX(-200%); }
+    37.5% { transform: translateX(-300%); }
+    50% { transform: translateX(-400%); }
+    62.5% { transform: translateX(-500%); }
+    75% { transform: translateX(-600%); }
+    87.5% { transform: translateX(-700%); }
+    100% { transform: translateX(0);}
+}
+
+
+#section-title i {
+    color:#1e1e1e22;
+}
